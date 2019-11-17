@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Listen to audio</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+   	
+  <div class="modal" style="display:none;">
+  	 <div class="modal-content">
+  	 	<audio src="" autoplay="autoplay" controls></audio>
+  	 </div>
+  </div>
+
+   	<div>
+   		<ol>
+   			<li onClick="onListen(event)" data-audio-src="./static/test1.mp3">Listen to mp3 link 1</li>
+   			<li onClick="onListen(event)" data-audio-src="./static/test2.mp3">Listen to mp3 link 2</li>
+   			<li onClick="onListen(event)" data-audio-src="./static/test3.mp3">Listen to mp3 link 3</li>
+   		</ol>
+   	</div>
+   	<script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

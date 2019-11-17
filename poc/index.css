@@ -1,0 +1,11 @@
+li{
+	padding: 5px;
+	cursor: pointer
+}
+
+.modal{
+	position: absolute;
+	z-index: 999;
+	border: 1px solid #000;
+	background: #eee
+}
