@@ -1,0 +1,23 @@
+First Rest service:
+===================
+https://platform.mi.spglobal.com/SNL.Services.Data.Api.Service/v2/Internal/General/DocsFileVersions(E4C5F296-FBE7-2F79-733D-9F11C0EE8364)?$select=KeyFileVersion,BytesExtended,KeyFileFormat&$expand=FileCollectionDetail($select=KeyFileSource,KeyFileType,KeyFileCollectionDetail;$expand=FileCollection($select=KeyFileCollection,KeyFileType;$expand=DocsFileCollectionRelations($select=KeyFileCollectionRelationship;$expand=Instn($select=KeyGAAPDomainClass,KeyGAAPCurrent,KeyIndLeadDomainClass,KeyIndLeadDomainClassMedia,KeyIndLeadCurrent,KeyIndLeadCurrentMedia,KeyRegDomainClass,KeyRegCurrent,KeyRegDomainClassEnergy,KeyRegCurrentEnergy,KeyRegDomainClassInsurance,KeyRegCurrentInsurance,KeyIFRSCurrent,KeyIFRSDomainClass,InstnCurrent))))  
+
+Second Rest service: 
+===================
+https://platform.mi.spglobal.com/SNL.Services.Data.Api.Service/v2/Internal/General/DocsFileVersions(E4C5F296-FBE7-2F79-733D-9F11C0EE8364)/$value?push=true 
+
+Request Headers for both the service
+======================================
+
+key: authorization   
+value: Bearer <jwt0 xmlns="http://www.snl.com/security/tokens">eyJ0eXAiOiJKV0UiLCJhbGciOiJSU0ExXzUiLCJ4NXQiOiI5NkMwMDY3NEU4RDRCNzdFNzExQjM2QTEyQkVBNDJBRTNFQzcyNEMyIiwiZW5jIjoiQTI1NkNCQyIsIml2IjoiR0JZS3FfRnlqS1ZVcEl0c3V3TldkZyIsInppcCI6IlpJUCJ9.uZxc4_kT-rk49miXMUjboj-I-_ndB86W48cT-TNCLEwlR53lUU7fZ2uJsMojiUa2X0Xxj6ZU3IsS-XWEZ4gOnOaIqHubFE_25TeAQcU-Fscu5jZ8SjDtOmFHdmny5ZA45stZrgXdMeQdkE0jDPwHDNnOODYVCrt3Irhm26ZvPJelExGs1eXTgP_bmwByGlw8cIcNdPEcwjJvVvUBXeeokLTD2ps9wAmo6L2xBeLYYw61xsYk2_uSAwciTWu_deqSNJPNrPRXOn_ych7weQMC0QVwvKTNzpPwdRh9P7bdlRE6jMTTHAze43J41zk8LkhbkF5TwjsjasgNVwz98NzZYA.WenV0CpZ3reFMVyY7P8eMbWSNAxd6SpdBGfqpCA6MIE-_Px7YUrb0gu7BLYuk-f4Q6WzuaEWSue2qiKonb6kbCHg6hQUTZHODOxeaT9VjRKcAfQ-Qb1nz_RttcjOk_W-1jkP7Ya5e2P9aDjB5xxWI7_IbFJZTgGkv60UmaM352Xpr1jCHwKDZwpG6WK8ctsiVwnsrjYWu76bLF2tSA1nOvAnjmo8MJmpXSoRulDn5QXr1d_UC_rcIvnQlnptg-ZCY3VRabhKHQkpiECM3yYpHqlzO1b6bQnvf3oCJpxMLORCX9wTr-hsxoEkEwUsfWw2aquPHUV0DOgUwUSKbrmVI_6TvD2DpPaAe9-pYQ3a63TtowuDQiifN5_1-4-Hda1eF96xeH0iFlmmh4aRTbTH4C8q_lOZe8S4Iz6ChhB_3sqiiVgatGOOF1xcBq80k4iyqfS_jTQEs47DJYpXZ3L_xFZZ32zCdbY3IyRksM56GdlH3_2YlwAxqZ2mtZKOT7vg2ejX48mmZ5qdBR1IPQBsFP0BL5Q0rcCD8_lHHGGVB43qAtZEZoql6dFfyrtfJyyeKPE5u4M1WScHAGeAZrfUZNeNg3TPs5qAzUzgCt1V9G96S-QOfzbYd6AwXfCo6OCUL5Kr7qNKYQcOEz0-_MAX0GPynA2U1dP_-I3BlVLrx2DPh0DTxSPPaRNj8OrEpXWZ33yXq0cnKYKOMMU3j5tjnBQmAVh04v0oIC-F76rp7h_wQcMf7_YtDXnTbqSHLkdUSy45knIQxWCpCx8leiTkDtF4DTmqKHi9sCkJjuiwsXiGArHucP51r_4Bfk8qUKYDrDpKHqIkj05LS4oITeU61psaIHwBBz0CE5DrIoCsho3Uk7iInTmcGr1G3kfq-RH1g3k44pbaTG2DiNDwDOojJ0E144UG81YpczeVS8TPa2cd0eV9obPEg4koPWVtRBB3myVZLNVA1t1arBQGirnugkVMyM0tTQW2lwEjJVT271kiskN1jJZujB2CFWKheaUImTJqMNfjXWgOhoEeuYIAbWIUnRIGCLN6OAkrSeW_MnASsLPIfK0-5sgRTjRAaRkx3R0Z9u-GTQQf98lhVoGsLLMQ8hNowAavIlmzXwRH57_eRYC_kniZdixn03DNe_rX3fDp-VbuLhUFsASlxn9ft5fenWu-1s4fBWds5Gy0xLKg2H1GnhHui00lj2Ov004JkZHkvkRoO-RQ8oAj5LQR4mePssF83upyeSGJvKjACgA</jwt0>
+
+key: snl-request-client
+value:1:yGpyYKbWyCXyOR/MiwYXEdhAJ+k=
+
+key: snl-request-time
+value: 1573660218888
+
+
+
+
